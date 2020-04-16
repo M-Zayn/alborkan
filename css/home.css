@@ -2052,6 +2052,9 @@ a:hover, a:focus {
   .fixed-menu .call-us {
     width: 90%;
   }
+  .header {
+    height: 870px;
+  }
   .header .nav-bar .nav-list .upper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
