@@ -241,6 +241,10 @@ a:hover, a:focus {
   width: auto;
 }
 
+.overflow-h {
+  overflow-y: hidden !important;
+}
+
 /*------ header start ------*/
 .header {
   position: relative;
@@ -2121,4 +2125,3 @@ a:hover, a:focus {
   }
 }
 
-/*# sourceMappingURL=home.css.map */
