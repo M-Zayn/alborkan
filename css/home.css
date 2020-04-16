@@ -1661,8 +1661,10 @@ a:hover, a:focus {
   }
   .fixed-menu {
     width: 450px;
+    max-height: 80vh;
     background-color: #fff;
-    position: absolute;
+    position: fixed;
+    overflow-y: auto;
     top: 38px;
     left: 50%;
     -webkit-transform: translateX(-50%);
