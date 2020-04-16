@@ -16,26 +16,6 @@ $(function() {
 
 
 
-  // $(".nav-bar .zx-container .sm-screan button .lnr-magnifier").on("click", function() {
-  //   $(this).toggleClass("lnr-magnifier");
-  //   $(this).toggleClass("lnr-cross");
-  //   $(".nav-bar .zx-container .search").toggleClass("show");
-  //   $(".search-overlay").fadeIn();
-  // });
-  // $(".search-overlay").on("click", function() {
-  //   $(".nav-bar .search-popup").removeClass("show");
-  //   $(this).fadeOut();
-  // });
-  
-  // $('a[data-scroll]').on("click",function (e){
-  //   e.preventDefault();    
-    
-  //   $("html, body").animate({
-  //     scrollTop: $($(this).attr("data-scroll")).offset().top
-  //   }, 1000);
-  // });
-
-
     $(window).scroll(function () {
       if ($(window).scrollTop() > $(".header .fixed-icons").innerHeight() ) {
         $(".header .fixed-icons").addClass("fixed");
@@ -48,31 +28,31 @@ $(function() {
 
 
     $(".our-work .our-work-nav .all").on("click", function() {
-      $(".our-work .our-work-content div").fadeIn();
+      $(".our-work .our-work-content div").fadeIn(500);
     });
     $(".our-work .our-work-nav .one").on("click", function() {
-      $(".our-work .our-work-content .one-show").fadeIn();
-      $(".our-work .our-work-content .two-show").fadeOut();
-      $(".our-work .our-work-content .three-show").fadeOut();
-      $(".our-work .our-work-content .four-show").fadeOut();
+      $(".our-work .our-work-content .one-show").fadeIn(500);
+      $(".our-work .our-work-content .two-show").fadeOut(10);
+      $(".our-work .our-work-content .three-show").fadeOut(10);
+      $(".our-work .our-work-content .four-show").fadeOut(10);
     });
     $(".our-work .our-work-nav .two").on("click", function() {
-      $(".our-work .our-work-content .two-show").fadeIn();
-      $(".our-work .our-work-content .one-show").fadeOut();
-      $(".our-work .our-work-content .three-show").fadeOut();
-      $(".our-work .our-work-content .four-show").fadeOut();
+      $(".our-work .our-work-content .two-show").fadeIn(500);
+      $(".our-work .our-work-content .one-show").fadeOut(10);
+      $(".our-work .our-work-content .three-show").fadeOut(10);
+      $(".our-work .our-work-content .four-show").fadeOut(10);
     });
     $(".our-work .our-work-nav .three").on("click", function() {
-      $(".our-work .our-work-content .three-show").fadeIn();
-      $(".our-work .our-work-content .two-show").fadeOut();
-      $(".our-work .our-work-content .one-show").fadeOut();
-      $(".our-work .our-work-content .four-show").fadeOut();
+      $(".our-work .our-work-content .three-show").fadeIn(500);
+      $(".our-work .our-work-content .two-show").fadeOut(10);
+      $(".our-work .our-work-content .one-show").fadeOut(10);
+      $(".our-work .our-work-content .four-show").fadeOut(10);
     });
     $(".our-work .our-work-nav .four").on("click", function() {
-      $(".our-work .our-work-content .four-show").fadeIn();
-      $(".our-work .our-work-content .two-show").fadeOut();
-      $(".our-work .our-work-content .three-show").fadeOut();
-      $(".our-work .our-work-content .one-show").fadeOut();
+      $(".our-work .our-work-content .four-show").fadeIn(500);
+      $(".our-work .our-work-content .two-show").fadeOut(10);
+      $(".our-work .our-work-content .three-show").fadeOut(10);
+      $(".our-work .our-work-content .one-show").fadeOut(10);
     });
 
 
@@ -145,26 +125,6 @@ $(function() {
     });
 
 
-    // $(".nav-bar .zx-container .sm-screan button .lnr-menu").on("click", function() {
-    //   $(".fixed-menu").fadeIn();
-    //   $(".fixed-menu .menu").addClass("show");
-    //   $(".fixed-menu .menu .menu-list ul").addClass("active");
-    //   $('html, body').css("overflow-y", "hidden");
-    // });
-    // $(".fixed-menu, .close").on("click", function() {
-    //   $(".fixed-menu").fadeOut();
-    //   $(".fixed-menu .menu").removeClass("show");
-    //   $(".fixed-menu .menu .menu-list ul").removeClass("active");
-    //   $('html, body').css("overflow-y", "visible");
-    // });
-    // $(".fixed-menu .menu").on("click", function(e) {
-    //   e.stopPropagation();
-    // });
-
-    // $(".fixed-menu .menu .menu-list ul .slide").on("click", function() {
-    //   $(this).toggleClass("active");
-    //   $(this).children("ul").slideToggle();
-    //   });
     
     
 
