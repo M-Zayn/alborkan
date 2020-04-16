@@ -127,6 +127,7 @@ $(function() {
     });
     $(".fixed-menu .close").on("click", function() {
       $(".fixed-menu").fadeOut();
+      $("html, body").removeClass("overflow-h");
     });
 
 });
