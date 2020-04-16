@@ -16,6 +16,8 @@ $(function() {
 
 
 
+
+
     $(window).scroll(function () {
       if ($(window).scrollTop() > $(".header .fixed-icons").innerHeight() ) {
         $(".header .fixed-icons").addClass("fixed");
@@ -117,16 +119,14 @@ $(function() {
       $(this).children("ul").slideToggle();
       });
 
+
+      
     $(".fixed-nav .menu").on("click", function() {
       $(".fixed-menu").fadeToggle();
+      $("html, body").toggleClass("overflow-h");
     });
     $(".fixed-menu .close").on("click", function() {
       $(".fixed-menu").fadeOut();
     });
 
-
-    
-    
-
-  
 });
