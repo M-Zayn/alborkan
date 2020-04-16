@@ -369,7 +369,7 @@ a:hover, a:focus {
   font-weight: 600;
   font-size: 12px;
   color: #fff;
-  margin: 3px 5px 0 0;
+  margin: 3px 3px 0 0;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -387,7 +387,9 @@ a:hover, a:focus {
 .header .nav-bar .nav-list ul li.hover ul {
   opacity: 0;
   visibility: hidden;
-  width: 360px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   position: absolute;
   top: 40px;
   left: 50%;
@@ -429,20 +431,33 @@ a:hover, a:focus {
 }
 
 .header .nav-bar .nav-list ul li.hover ul li {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 7px 0;
   color: #444;
-  margin: 8px 0;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .header .nav-bar .nav-list ul li.hover ul li:hover {
   color: #3e6edf;
 }
 
+.header .nav-bar .nav-list ul li.hover ul li:last-child {
+  border: none;
+}
+
 .header .nav-bar .contact-us-icon {
   position: absolute;
   top: -25px;
   left: -40px;
+}
+
+.header .nav-bar .contact-us-icon:hover {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
 }
 
 .header .nav-bar .contact-us-icon .ellipse-3 {
@@ -500,10 +515,15 @@ a:hover, a:focus {
 }
 
 .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact {
+  outline: none;
+  border: none;
   width: 102px;
   height: 102px;
   border-radius: 50%;
   background-color: #3e6edf;
+}
+
+.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact a {
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -518,7 +538,6 @@ a:hover, a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  cursor: default;
 }
 
 .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact i {
@@ -656,7 +675,14 @@ a:hover, a:focus {
 }
 
 .header .fixed-icons .phone i {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
   font-size: 39px;
+}
+
+.header .fixed-icons .phone:hover i {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
 }
 
 .header .fixed-icons .whats-app {
@@ -664,7 +690,14 @@ a:hover, a:focus {
 }
 
 .header .fixed-icons .whats-app i {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
   font-size: 46px;
+}
+
+.header .fixed-icons .whats-app:hover i {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
 }
 
 .header .scroll-icon {
@@ -1510,7 +1543,7 @@ a:hover, a:focus {
 }
 
 .footer .copyrights span img {
-  margin: 0 5px;
+  margin: 0 5px 0 0;
 }
 
 /*------ footer end ------*/
@@ -1570,7 +1603,7 @@ a:hover, a:focus {
     position: fixed;
     left: 0;
     bottom: 0;
-    z-index: 9999;
+    z-index: 998;
     display: block;
     width: 100%;
     height: 96px;
@@ -1635,7 +1668,7 @@ a:hover, a:focus {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     padding: 60px 0;
-    z-index: 999;
+    z-index: 997;
   }
   .fixed-menu .close {
     position: absolute;
@@ -2069,13 +2102,20 @@ a:hover, a:focus {
     margin: 0 0 20px 0 !important;
   }
   .news .news-content .news-card {
-    width: unset;
+    width: 340px;
+    margin: 0 auto;
   }
   .footer .footer-slide .sec-list ul {
     margin: 0 0 50px 30px;
   }
   .footer .copyrights span {
     text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .news .news-content .news-card {
+    width: unset;
   }
 }
 
