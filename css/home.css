@@ -2586,15 +2586,18 @@ a:hover, a:focus {
     width: 100px;
     margin: 25px 0 0 0;
   }
+  .header .nav-bar .contact-us-icon {
+    padding: 0;
+  }
   .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact {
     width: 82px;
     height: 82px;
   }
   .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact a i {
-    font-size: 19px;
+    font-size: 17px;
   }
   .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact a span {
-    font-size: 15px;
+    font-size: 14px;
   }
   .header .nav-bar .nav-list .upper {
     -webkit-box-orient: vertical;
@@ -2662,4 +2665,3 @@ a:hover, a:focus {
     width: unset;
   }
 }
-
