@@ -2545,6 +2545,18 @@ a:hover, a:focus {
   .fixed-menu .call-us {
     width: 90%;
   }
+  .fixed-menu .call-us {
+    height: 60px;
+  }
+  .fixed-menu .call-us a {
+    font-size: 20px;
+  }
+  .fixed-menu .call-us a i {
+    font-size: 23px;
+  }
+  .fixed-menu .nav-list {
+    margin: 40px 40px 0 40px;
+  }
   .fixed-menu .nav-list li {
     font-size: 20px;
   }
