@@ -614,9 +614,9 @@ a:hover, a:focus {
 }
 
 .header .nav-bar .contact-us-icon .ellipse-3 {
+  background-color: transparent;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-  border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -628,18 +628,48 @@ a:hover, a:focus {
           align-items: center;
   -webkit-animation-name: waves;
           animation-name: waves;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  position: relative;
+  width: 164px;
+  height: 94.69px;
+  margin: 47.34px 0;
+  border-left: solid 2px rgba(255, 255, 255, 0.051);
+  border-right: solid 2px rgba(255, 255, 255, 0.051);
+}
+
+.header .nav-bar .contact-us-icon .ellipse-3::before, .header .nav-bar .contact-us-icon .ellipse-3::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 115.97px;
+  height: 115.97px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 22.0172px;
+}
+
+.header .nav-bar .contact-us-icon .ellipse-3::before {
+  top: -57.9828px;
+  border-top: solid 2.8284px rgba(255, 255, 255, 0.051);
+  border-right: solid 2.8284px rgba(255, 255, 255, 0.051);
+}
+
+.header .nav-bar .contact-us-icon .ellipse-3::after {
+  bottom: -57.9828px;
+  border-bottom: solid 2.8284px rgba(255, 255, 255, 0.051);
+  border-left: solid 2.8284px rgba(255, 255, 255, 0.051);
 }
 
 .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 {
+  background-color: transparent;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-  border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -651,18 +681,47 @@ a:hover, a:focus {
           align-items: center;
   -webkit-animation-name: waves;
           animation-name: waves;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  position: relative;
+  width: 128px;
+  height: 73.90px;
+  border-left: solid 2px rgba(255, 255, 255, 0.102);
+  border-right: solid 2px rgba(255, 255, 255, 0.102);
+}
+
+.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2::before, .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 90.51px;
+  height: 90.51px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 16.7452px;
+}
+
+.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2::before {
+  top: -45.2548px;
+  border-top: solid 2.8284px rgba(255, 255, 255, 0.102);
+  border-right: solid 2.8284px rgba(255, 255, 255, 0.102);
+}
+
+.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2::after {
+  bottom: -45.2548px;
+  border-bottom: solid 2.8284px rgba(255, 255, 255, 0.102);
+  border-left: solid 2.8284px rgba(255, 255, 255, 0.102);
 }
 
 .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 {
+  background-color: transparent;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-  border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -674,15 +733,45 @@ a:hover, a:focus {
           align-items: center;
   -webkit-animation-name: waves;
           animation-name: waves;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  position: relative;
+  width: 105px;
+  height: 60.62px;
+  margin: 30.31px 0;
+  border-left: solid 2px rgba(255, 255, 255, 0.2);
+  border-right: solid 2px rgba(255, 255, 255, 0.2);
 }
 
-.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact {
+.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1::before, .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 74.25px;
+  height: 74.25px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 13.3769px;
+}
+
+.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1::before {
+  top: -37.1231px;
+  border-top: solid 2.8284px rgba(255, 255, 255, 0.2);
+  border-right: solid 2.8284px rgba(255, 255, 255, 0.2);
+}
+
+.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1::after {
+  bottom: -37.1231px;
+  border-bottom: solid 2.8284px rgba(255, 255, 255, 0.2);
+  border-left: solid 2.8284px rgba(255, 255, 255, 0.2);
+}
+
+.header .nav-bar .contact-us-icon .contact {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -691,12 +780,14 @@ a:hover, a:focus {
   outline: none;
   border: none;
   width: 102px;
-  height: 102px;
-  border-radius: 50%;
+  height: 112px;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background-color: #3e6edf;
+  z-index: 9;
 }
 
-.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact a {
+.header .nav-bar .contact-us-icon .contact a {
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -713,71 +804,49 @@ a:hover, a:focus {
           flex-direction: column;
 }
 
-.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact i {
+.header .nav-bar .contact-us-icon .contact i {
   font-size: 24px;
   padding: 0 0 5px 0;
 }
 
-.header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact span {
+.header .nav-bar .contact-us-icon .contact span {
   font-family: ar-bold;
   font-size: 17px;
 }
 
 @-webkit-keyframes waves {
   0% {
-    border-color: rgba(255, 255, 255, 0.2);
-    border-style: solid;
-    border-width: 2px;
-    width: 105px;
-    height: 105px;
+    -webkit-transform: translate(1.25);
+            transform: translate(1.25);
   }
   25% {
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(255, 255, 255, 0.102);
-    width: 128px;
-    height: 128px;
+    -webkit-transform: translate(1.5);
+            transform: translate(1.5);
   }
   50% {
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(255, 255, 255, 0.051);
-    width: 164px;
-    height: 164px;
+    -webkit-transform: translate(1.75);
+            transform: translate(1.75);
   }
   100% {
-    border-color: rgba(255, 255, 255, 0);
-    width: 212px;
-    height: 212px;
+    opacity: 0;
   }
 }
 
 @keyframes waves {
   0% {
-    border-color: rgba(255, 255, 255, 0.2);
-    border-style: solid;
-    border-width: 2px;
-    width: 105px;
-    height: 105px;
+    -webkit-transform: translate(1.25);
+            transform: translate(1.25);
   }
   25% {
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(255, 255, 255, 0.102);
-    width: 128px;
-    height: 128px;
+    -webkit-transform: translate(1.5);
+            transform: translate(1.5);
   }
   50% {
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(255, 255, 255, 0.051);
-    width: 164px;
-    height: 164px;
+    -webkit-transform: translate(1.75);
+            transform: translate(1.75);
   }
   100% {
-    border-color: rgba(255, 255, 255, 0);
-    width: 212px;
-    height: 212px;
+    opacity: 0;
   }
 }
 
@@ -853,21 +922,24 @@ a:hover, a:focus {
 }
 
 .header .nav-bar.fixed .contact-us-icon .ellipse-3 {
+  display: none;
   -webkit-animation: unset;
           animation: unset;
 }
 
 .header .nav-bar.fixed .contact-us-icon .ellipse-3 .ellipse-2 {
+  display: none;
   -webkit-animation: unset;
           animation: unset;
 }
 
 .header .nav-bar.fixed .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 {
+  display: none;
   -webkit-animation: unset;
           animation: unset;
 }
 
-.header .nav-bar.fixed .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact {
+.header .nav-bar.fixed .contact-us-icon .contact {
   position: relative;
   top: unset;
   left: unset;
@@ -876,20 +948,22 @@ a:hover, a:focus {
   width: 150px;
   height: 45px;
   border-radius: 50px;
+  -webkit-clip-path: unset;
+          clip-path: unset;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 
-.header .nav-bar.fixed .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact:hover {
+.header .nav-bar.fixed .contact-us-icon .contact:hover {
   border: 2px solid #3e6edf;
   background-color: #fff;
 }
 
-.header .nav-bar.fixed .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact:hover a {
+.header .nav-bar.fixed .contact-us-icon .contact:hover a {
   color: #3e6edf;
 }
 
-.header .nav-bar.fixed .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact a {
+.header .nav-bar.fixed .contact-us-icon .contact a {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -898,7 +972,7 @@ a:hover, a:focus {
   transition: all .3s ease-in-out;
 }
 
-.header .nav-bar.fixed .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact a i {
+.header .nav-bar.fixed .contact-us-icon .contact a i {
   padding: 0 0 0 8px;
   font-size: 18px;
 }
@@ -1411,8 +1485,8 @@ a:hover, a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-animation-name: waves;
-          animation-name: waves;
+  -webkit-animation-name: waves-d;
+          animation-name: waves-d;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
   -webkit-animation-delay: 0s;
@@ -1434,8 +1508,8 @@ a:hover, a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-animation-name: waves;
-          animation-name: waves;
+  -webkit-animation-name: waves-d;
+          animation-name: waves-d;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
   -webkit-animation-delay: 1s;
@@ -1457,8 +1531,8 @@ a:hover, a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-animation-name: waves;
-          animation-name: waves;
+  -webkit-animation-name: waves-d;
+          animation-name: waves-d;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
   -webkit-animation-delay: 2s;
@@ -1493,7 +1567,36 @@ a:hover, a:focus {
   color: inherit;
 }
 
-@keyframes waves {
+@-webkit-keyframes waves-d {
+  0% {
+    border-color: rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-width: 2px;
+    width: 105px;
+    height: 105px;
+  }
+  25% {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.102);
+    width: 128px;
+    height: 128px;
+  }
+  50% {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.051);
+    width: 164px;
+    height: 164px;
+  }
+  100% {
+    border-color: rgba(255, 255, 255, 0);
+    width: 212px;
+    height: 212px;
+  }
+}
+
+@keyframes waves-d {
   0% {
     border-color: rgba(255, 255, 255, 0.2);
     border-style: solid;
@@ -2183,7 +2286,7 @@ a:hover, a:focus {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    margin: 35px 0 0 0;
+    margin: 30px 0 0 0;
   }
   .header .nav-bar .nav-list .upper {
     margin: 0 auto;
@@ -2196,7 +2299,7 @@ a:hover, a:focus {
     display: none;
   }
   .header .nav-bar .contact-us-icon {
-    top: 30px;
+    top: 25px;
   }
   .header .nav-bar.fixed {
     position: relative;
@@ -2207,6 +2310,7 @@ a:hover, a:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding: 10px 15px;
   }
   .header .nav-bar.fixed .logo {
     width: 90px;
@@ -2585,14 +2689,17 @@ a:hover, a:focus {
     width: 100px;
     margin: 25px 0 0 0;
   }
-  .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact {
+  .header .nav-bar .contact-us-icon {
+    top: 30px;
+  }
+  .header .nav-bar .contact-us-icon .contact {
     width: 82px;
-    height: 82px;
+    height: 92px;
   }
-  .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact a i {
-    font-size: 19px;
+  .header .nav-bar .contact-us-icon .contact a i {
+    font-size: 18px;
   }
-  .header .nav-bar .contact-us-icon .ellipse-3 .ellipse-2 .ellipse-1 .contact a span {
+  .header .nav-bar .contact-us-icon .contact a span {
     font-size: 15px;
   }
   .header .nav-bar .nav-list .upper {
@@ -2661,3 +2768,39 @@ a:hover, a:focus {
     width: unset;
   }
 }
+
+.hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: transparent;
+  margin: 86.60px 0;
+  border-left: solid 2px #333333;
+  border-right: solid 2px #333333;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 41.9340px;
+}
+
+.hexagon:before {
+  top: -106.0660px;
+  border-top: solid 2.8284px #333333;
+  border-right: solid 2.8284px #333333;
+}
+
+.hexagon:after {
+  bottom: -106.0660px;
+  border-bottom: solid 2.8284px #333333;
+  border-left: solid 2.8284px #333333;
+}
+
