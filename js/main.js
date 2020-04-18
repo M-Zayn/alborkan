@@ -17,6 +17,28 @@ $(function() {
 
 
 
+    $(".header .nav-bar .contact-us-icon .contact").on("click", function () {
+      $(".call-us-form").fadeIn();
+      $('html, body').css("overflow-y", "hidden");
+    });
+    $(".call-us-form, .call-us-form .form .close").on("click", function () {
+      $(".call-us-form").fadeOut();
+      $('html, body').css("overflow-y", "visible");
+    });
+    $(".call-us-form .form").on("click", function(e) {
+      e.stopPropagation();
+    });
+
+
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > $(".header").innerHeight() - 140) {
+        $(".header .nav-bar").addClass("fixed");
+    } else {
+        $(".header .nav-bar").removeClass("fixed");
+    }
+    
+    });
+
 
     $(window).scroll(function () {
       if ($(window).scrollTop() > $(".header .fixed-icons").innerHeight() ) {
@@ -28,6 +50,10 @@ $(function() {
     });
 
 
+
+    $(".our-work .our-work-nav div").on("click", function() {
+      $(this).addClass("active").siblings().removeClass("active");
+    });
 
     $(".our-work .our-work-nav .all").on("click", function() {
       $(".our-work .our-work-content div").fadeIn(500);
@@ -130,4 +156,7 @@ $(function() {
       $("html, body").removeClass("overflow-h");
     });
 
+
+
+  
 });
