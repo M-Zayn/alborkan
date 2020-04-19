@@ -147,6 +147,10 @@ $(function() {
       });
 
 
+      $(".fixed-nav .menu").on("click", function() {
+        $(".fixed-nav .menu i").toggleClass("fa-bars");
+        $(".fixed-nav .menu i").toggleClass("fa-times");
+      });
       
     $(".fixed-nav .menu").on("click", function() {
       $(".fixed-menu").fadeToggle();
@@ -159,5 +163,15 @@ $(function() {
 
 
 
+
+    var scene = $('#scene').get(0);
+    var parallaxInstance = new Parallax(scene);
+
+    // if ($(window).width() < 992) {
+    //   $("#scene").removeAttr("data-relative-input");
+    //   $(".parallax").removeAttr("data-depth");
+    // } else {
+      
+    // }
   
 });
