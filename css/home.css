@@ -939,8 +939,8 @@ a:hover, a:focus {
 
 .header .header-inner .inner-btns button:nth-of-type(1) {
   background-color: #3e6edf;
-  border: 2px solid #3e6edf;
   margin: 0 0 0 8px;
+  border: none;
 }
 
 .header .header-inner .inner-btns button:nth-of-type(1):hover {
@@ -959,7 +959,7 @@ a:hover, a:focus {
 
 .header .header-inner .inner-btns button:nth-of-type(2):hover {
   background-color: #3e6edf;
-  border: 2px solid #3e6edf;
+  border: none;
 }
 
 .header .header-inner .inner-vid {
